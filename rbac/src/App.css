@@ -1,0 +1,227 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  color: #075985;
+}
+
+.login-card {
+  display: flex ;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  
+ 
+}
+
+.login-image {
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login-image img {
+  width: 100%;
+  height: auto;
+
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.login-content {
+  flex: 1; 
+  background-color: rgb(243, 248, 252);
+  padding: 10px;
+  color: rgb(7, 94, 121);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-card-content h2 {
+  margin-top: 0;
+}
+
+button {
+  color: white;
+  padding: 5px 20px;
+  background-color: rgb(7, 94, 121);
+  border: 1px solid rgb(7, 94, 121);
+  cursor: pointer;
+  margin:10px 0px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color:rgb(14, 118, 150);
+  color: white;
+  cursor: pointer;
+  
+}
+
+input{
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid rgb(7, 94, 121);
+}
+
+select{
+  padding:9px;
+  border-radius: 5px;
+  border: 1px solid rgb(7, 94, 121);
+  color: rgb(7, 94, 121) ;
+}
+
+.home-btn{
+ display: flex;
+ gap:8px;
+
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  color: #0369a1;
+  max-width: 500px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.modal-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #075985;
+  border-radius: 0.5rem;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0px 0px 0px 3px rgba(56, 189, 248, 0.25);
+}
+
+
+
+.button-cancel {
+  background-color: #facc15;
+  color: white;
+ 
+  border-radius: 0.5rem;
+
+}
+
+.button-cancel:hover{
+  background-color: #eab308;
+  border: #eab308;
+}
+
+.modal-btn{
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+}
+
+.button-delete {
+  background-color: #dc2626;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+
+}
+
+.button-delete:hover{
+  background-color: #b91c1c;
+  border-color:#b91c1c ;
+}
+
+
+.button-add {
+  background-color: #09a009;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-right:30rem;
+
+}
+
+.button-add:hover {
+  background-color: #0fb80f;
+  border-color: #0fb80f;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  background-color:#075985;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+
+
+.flex-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.flex-actions button {
+  padding:0.4rem 0.7rem;
+  border-radius:10px;
+  border: 2px solid transparent;
+}
+
+.flex-actions button:hover {
+  border-color:#0369a1;
+  background-color:#0369a1;
+}
+
+.new{
+  width:80px;
+  height:43px;
+  margin-top: 9px;
+}
